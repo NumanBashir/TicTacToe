@@ -1,0 +1,14 @@
+.frame {
+  text-align: center;
+}
+
+button {
+  font-size: 8rem;
+}
+
+.square {
+  margin: 4px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: white;
+}

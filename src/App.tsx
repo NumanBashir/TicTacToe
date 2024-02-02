@@ -1,9 +1,12 @@
 import "./App.css";
+import Board from "../src/components/Board/Board.tsx";
 
 function App() {
   return (
     <>
-      <div>Test</div>
+      <div>
+        <Board />
+      </div>
     </>
   );
 }
