@@ -1,24 +1,26 @@
 import React from "react";
+import { useState } from "react";
 import "../Board/Board.css";
+import Square from "../Square/Square";
 
 const Board = () => {
   return (
     <>
       <div className="frame">
         <div className="board-row">
-          <button className="square">X</button>
-          <button className="square">X</button>
-          <button className="square">X</button>
+          <Square />
+          <Square />
+          <Square />
         </div>
         <div className="board-row">
-          <button className="square">X</button>
-          <button className="square">X</button>
-          <button className="square">X</button>
+          <Square />
+          <Square />
+          <Square />
         </div>
         <div className="board-row">
-          <button className="square">X</button>
-          <button className="square">X</button>
-          <button className="square">X</button>
+          <Square />
+          <Square />
+          <Square />
         </div>
       </div>
     </>
