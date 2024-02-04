@@ -1,16 +1,14 @@
 import React from "react";
-import { useState } from "react";
 import "../Square/Square.css";
 
-const Square = () => {
-  const [value, setValue] = useState("");
+interface Props {
+  value: string;
+  onSquareClick: () => void;
+}
 
-  function handleClick() {
-    setValue("X");
-  }
-
+const Square: React.FC<Props> = ({ value, onSquareClick }) => {
   return (
-    <button className="square" onClick={handleClick}>
+    <button className="square" onClick={onSquareClick}>
       {value}
     </button>
   );
